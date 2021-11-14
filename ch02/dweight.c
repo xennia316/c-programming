@@ -6,4 +6,6 @@ int main(void){
     printf("Enter height of box: ");
     scanf("%d", &height);
     printf("Enter length of box: ");
+
+    return 0;
 }
