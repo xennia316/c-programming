@@ -1,5 +1,5 @@
 /**
- * @file 02a.c
+ * @file 02c.c
  * @author xennia316
  * @brief illustrates logical operators
  * @version 0.1
