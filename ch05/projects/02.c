@@ -11,7 +11,7 @@ int main(void)
     switch (hour)
     {
         case 1:case 2:case 3:case 4:case 5:case 6: case 7:case 8:case 9:case 10:case 11: case 12:
-            printf("hour%d:%d\n", minutes, seconds);
+            printf("%d:%d:%d\n",hour, minutes, seconds);
                  break;
         case 13:
             printf("1:%d:%d\n", minutes, seconds);
@@ -47,14 +47,14 @@ int main(void)
             printf("11:%d:%d\n", minutes, seconds);
                 break;
         case 24:
-            printf("12:%d:%d\n", minutes, seconds);
+            printf("0:%d:%d\n", minutes, seconds);
                 break;
 
     default: printf("This time does not exist\n");
         break;
         printf("The time you entered is:%d:%d:%d\n", hour, minutes, seconds);
     }
-    //usually easier to just use the hour modulo 13 since the clock works in modulo 13.
+    //usually easier to just use the hour modulo 12 since the clock works in modulo 13.
 
     return 0;
 }
