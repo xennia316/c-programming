@@ -1,7 +1,7 @@
 /**
  * @file 14.c
  * @author xennia316
- * @brief correcting a for loop
+ * @brief correcting an if statement 
  * @version 0.1
  * @date 2021-12-06
  * 
