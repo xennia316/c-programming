@@ -19,7 +19,7 @@ int main(void)
     printf("Enter two values to swap: ");
     scanf("%d%d", &x, &y);
 
-    printf("\n");
+    // printf("\n");
 
     printf("Before the swap: %d and %d", x, y);
     printf("\n");
