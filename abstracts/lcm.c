@@ -1,7 +1,7 @@
 /**
  * @file lcm.c
  * @author xennia316
- * @briefFind the lcm of two numbers
+ * @brief Find the lcm of two numbers. The lcm is the least common multiple. 
  * @version 0.1
  * @date 2021-12-11
  * 
