@@ -16,11 +16,12 @@ int main(void)
     printf("Enter a number: ");
     scanf("%d", &n);
 
-    
+     printf("The multiplication table for %d is: \n",  n);
     for(i = 0; i <= 12; ++i)
     {
-        printf("The multiplication table for %d is: \n");
+       
         printf("%d * %d = %d", n, i, n * i);
+        printf("\n");
     }
     return 0;
     
