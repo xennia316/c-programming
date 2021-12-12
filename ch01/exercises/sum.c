@@ -16,15 +16,15 @@ int main(void)
     int b;
     int c;
 
-    printf("Please enter a number");
+    printf("Please enter a number\n");
     scanf("%d", &a);
 
-    printf(" Enter another number");
+    printf(" Enter another number\n");
     scanf("%d", &b);
 
     c = a + b;
 
-    printf("Sum = %d", c);
+    printf("Sum = %d\n", c);
 
     return 0;
 
