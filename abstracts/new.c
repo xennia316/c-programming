@@ -13,7 +13,23 @@
 int main(void)
 {
     int a;
-    printf("%d", a*5);
+    int n;
+    int x, sum, i, power = 0;
+    printf("Enter a number: ");
+    scanf("%d", &a);
+    printf("\n");
+    printf("Enter another number: ");
+    scanf("%d", &x);
+
+    sum = a + x;
+
+    for(i = 0; i <= n; i++)
+    {
+        power = power * n;
+        printf("%d \n", power );
+        printf("\n");
+        break;
+    }
 
     return 0;
 }
