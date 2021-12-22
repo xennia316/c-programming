@@ -26,14 +26,13 @@ int main(void)
             rem = m % n;
             m = n;
             n = rem;
-            if(n == 0)
-         printf("The gcd is %d\n", m);
+            if (n == 0)
+                printf("The gcd is %d\n", m);
         } while (n != 0);
-        
     }
 
-    else 
-         printf("The gcd is %d\n", m);
+    else
+        printf("The gcd is %d\n", m);
 
     return 0;
 }
