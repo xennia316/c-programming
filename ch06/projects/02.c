@@ -14,8 +14,10 @@ int main(void)
 {
     int m, n, rem;
 
-    printf("Enter two numbers: ");
-    scanf("%d %d ", &m, &n);
+    printf("Enter a numbers: ");
+    scanf("%d", &m);
+    printf("Enter the second number: ");
+    scanf("%d", &n);
 
     if (n != 0)
     {
@@ -24,13 +26,14 @@ int main(void)
             rem = m % n;
             m = n;
             n = rem;
+            if(n == 0)
+         printf("The gcd is %d\n", m);
         } while (n != 0);
-
-        printf("The gcd is %d", m);
+        
     }
 
     else 
-         printf("The gcd is %d", m);
+         printf("The gcd is %d\n", m);
 
     return 0;
 }
