@@ -23,7 +23,7 @@ int main(void)
     for(i = 0; i <= num1 && i <= num2; i++)
     {
         // Check for the value of i that divides both numbers
-        if(num1 % 1 == 0 && num2 % i == 0)
+        if(num1 % i == 0 && num2 % i == 0)
         gcd = i;
     }
 
