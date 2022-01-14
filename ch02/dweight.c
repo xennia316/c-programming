@@ -1,11 +1,12 @@
 #include <stdio.h>
 
 int main(void){
-    int height, lenght, width, volume,  weight;
+    int heigth = 8, length = 12, width = 10, volume,  weigth;
+    volume = heigth * length * width;
 
-    printf("Enter height of box: ");
-    scanf("%d", &height);
-    printf("Enter length of box: ");
+    printf("Dimensions: %d x %d x %d\n", length, width, heigth);
+    printf("Volume (cubic inches): %d\n", volume);
+    printf("Dimensional weigth (pounds): %d\n", weigth);
 
     return 0;
 }
