@@ -9,6 +9,7 @@
  * 
  */
 #include <stdio.h>
+//defining the price of every item available
 #define RICE 20;
 #define BEANS 30;
 #define SOYA 50;
@@ -23,11 +24,10 @@ int main(void)
 
     printf("Enter a for rice, b for beans, c for soya: ");
     scanf(" %c", &stock);
-    printf("\n");
 
-    if(stock == 'a' || stock == 'b' || stock == 'c')
+    if (stock == 'a' || stock == 'b' || stock == 'c')
     {
-
+        //switching between the three available items
         switch (stock)
         {
         case 'a':
@@ -48,5 +48,8 @@ int main(void)
             printf("The character you entered is invalid\n");
         }
     }
+    //if item is not found
+    else
+        printf("Imvalid input\n");
     return 0;
 }
