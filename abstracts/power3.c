@@ -1,7 +1,7 @@
 /**
  * @file new.c
  * @author xennia316
- * @brief 
+ * @brief Finds the sum of two numbers and raises them to a power
  * @version 0.1
  * @date 2021-12-16
  * 
@@ -21,20 +21,19 @@ int main(void)
     printf("Enter another number: ");
     scanf("%d", &x);
 
+    //finds sum of two numbers
     sum = a + x;
     printf("The sum of both numbers is: %d\n", sum);
 
     printf("Enter a power: ");
     scanf("%d", &n);
 
-    for(i = 1; i <= n; i++)
-    power = power * sum;
+    for (i = 1; i <= n; i++)
+        power = power * sum;
 
+    printf("%d \n", power);
+    printf("\n");
 
-     printf("%d \n", power );
-     printf("\n");
-     
-    
-
+    // sums two numbers and raises them to a certain power from user
     return 0;
 }
