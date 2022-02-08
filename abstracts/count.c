@@ -12,6 +12,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+// function that takes in the intial value and decrements printing each new value
 int count(int a)
 {
     int i;
@@ -30,9 +31,8 @@ int main(void)
 {
     int x, y;
     printf("Enter the counting period: ");
-
     scanf("%d", &x);
-
+    //specifying the number of times function counts should be called according to input x
     for (y = x; y >= 0; y--)
     {
         count(x);
