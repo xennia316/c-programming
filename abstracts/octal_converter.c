@@ -30,7 +30,7 @@ int main(void)
     scanf("%d", &octal_number);
 
     //calling the function
-    printf("The octal equivalent is: %ld", octal_converter(octal_number));
+    printf("The octal equivalent is: %ld\n", octal_converter(octal_number));
 
     return 0;
 }
