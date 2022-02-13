@@ -15,12 +15,16 @@ int main(void)
     int number;
     int i;
 
-        long fact = 1;
+    //initialise factorial to 1
+    long fact = 1;
 
     printf("Enter a number to find its factorial: ");
     scanf("%d", &number);
 
-    for(i = 1; i <= number; i++)
+    //as long as i is smaller or the same as number the factorial becomes 
+    //the previous factorial multiplied by i.
+    //factorial is then incremented
+    for (i = 1; i <= number; i++)
     {
         fact = fact * i;
     }
