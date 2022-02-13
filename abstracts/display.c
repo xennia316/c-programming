@@ -18,12 +18,10 @@ int main(void)
 
     printf("Numbers from 0 to 09: \n");
 
-    for(i = 0; i <= 9; i++)
-    
-    
+    //Continously print out the numbers incremenously until they become bigger than 9
+    for (i = 0; i <= 9; i++)
+
         printf("%d\n", i);
 
-        return 0;
-    
-
+    return 0;
 }
