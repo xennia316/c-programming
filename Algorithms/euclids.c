@@ -9,8 +9,10 @@ int euclid(int m, int n)
         r = m % n;
         m = n;
         n = r;
+        count++;
 
     } while (n != 0);
+    printf("\n \b This program ran %d times\n", count);
     return m;
 }
 
